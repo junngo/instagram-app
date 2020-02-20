@@ -14,6 +14,8 @@ import configureStore from "./redux/configureStore";
 
 const { persistor, store } = configureStore();
 
+
+
 class App extends React.Component {
   state = {
     isLoadingComplete: false
@@ -41,6 +43,8 @@ class App extends React.Component {
   }
 
   _loadAssetsAsync = async () => {
+    // store.dispatch({ type: "LOG_OUT" });
+
     return Promise.all([
       Asset.loadAsync([
         require("./assets/images/logo.png"),

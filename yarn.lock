@@ -2277,6 +2277,11 @@ expo-error-recovery@~1.0.0:
   resolved "https://registry.yarnpkg.com/expo-error-recovery/-/expo-error-recovery-1.0.0.tgz#2ca9d59fcd16c5c881af877993731056f2d46afe"
   integrity sha512-xnxciNEpGmwxx8BAE2A9fd9HxtzWtz8p9mikKU+EfWgOXaYD3FJwgbFoVLD2pm4QUarxwOcic76rcwg+0cNnGg==
 
+expo-facebook@~8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/expo-facebook/-/expo-facebook-8.0.0.tgz#d337a56459a3833488a879b925349b30c06a0afd"
+  integrity sha512-fF+lwFLWkB/mrr/xu4aIZ3HhpsITUTC1Dut4fD7ZzBPpQ3x2s1KpdNOOrb6FQFlE0thFlLAASRe0HDhFD7EN4w==
+
 expo-file-system@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-8.0.0.tgz#60b90c8a375308dc85922592a77531a8e0cde6f7"
@@ -2680,9 +2685,9 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-"hammerjs@git+https://github.com/naver/hammer.js.git":
+"hammerjs@https://github.com/naver/hammer.js.git":
   version "2.0.17-snapshot"
-  resolved "git+https://github.com/naver/hammer.js.git#54bc698b25edd6e1b76ca975ebaced5ce0467d51"
+  resolved "https://github.com/naver/hammer.js.git#54bc698b25edd6e1b76ca975ebaced5ce0467d51"
   dependencies:
     "@types/hammerjs" "^2.0.36"
 

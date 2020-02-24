@@ -9,7 +9,10 @@ function LoggedOutNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={LogInScreen} />
+        <Stack.Screen 
+          name="Home"
+          component={LogInScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

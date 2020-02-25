@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 
 const TakePhotoScreen = props => (
     <View>
-        <Text>Upload Photo</Text>
+        <Text onPress={() => props.navigation.navigate("Tab")}>Upload Photo</Text>
     </View>
 )
 

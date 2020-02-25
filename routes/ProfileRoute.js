@@ -5,17 +5,23 @@ import ProfileScreen from "../screens/ProfileScreen";
 import LikesScreen from "../screens/LikesScreen";
 import CommentsScreen from "../screens/CommentsScreen";
 
-import sharedRoutes, { sharedOptions } from "./sharedRoutes";
-
 
 const ProfileStack = createStackNavigator();
 
-function ProfileRoute() {
+function ProfileRoute(aa) {
+    console.log(aa);
+    console.log('in profile stack');
+
     return (
         <ProfileStack.Navigator>
             <ProfileStack.Screen
                 name="Profile"
                 component={ProfileScreen}
+                // options={({ navigation, route }) => ({
+                //     headerTitle: ({screenProps}) => (
+                //         screenProps.username
+                //     )
+                // })}
             />
             <ProfileStack.Screen
                 name="Like"

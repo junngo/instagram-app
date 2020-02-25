@@ -5,8 +5,6 @@ import NotificationsScreen from "../screens/NotificationsScreen";
 import LikesScreen from "../screens/LikesScreen";
 import CommentsScreen from "../screens/CommentsScreen";
 
-import sharedRoutes, { sharedOptions } from "./sharedRoutes";
-
 
 const NotiStack = createStackNavigator();
 

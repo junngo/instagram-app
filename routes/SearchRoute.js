@@ -5,9 +5,6 @@ import SearchScreen from "../screens/SearchScreen";
 import LikesScreen from "../screens/LikesScreen";
 import CommentsScreen from "../screens/CommentsScreen";
 
-import sharedRoutes, { sharedOptions } from "./sharedRoutes";
-
-
 const SearchStack = createStackNavigator();
 
 function HomeRoute() {

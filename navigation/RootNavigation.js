@@ -7,8 +7,7 @@ import TabsNavigation from "./TabsNavigation";
 
 const Stack = createStackNavigator();
 
-function RootNavigation(props) {
-  console.log(props);
+function RootNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -16,7 +15,7 @@ function RootNavigation(props) {
         headerMode="none"
         mode="modal"
       >
-        <Stack.Screen 
+        <Stack.Screen
           name="Tab"
           component={TabsNavigation} 
         />
